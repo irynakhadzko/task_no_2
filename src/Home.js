@@ -101,6 +101,7 @@ ${JSON.stringify(newParameters, null, 2)}
             <Formik initialValues={initialValues} onSubmit={onSubmit} >
               <Form>
                 <Submit withSpinner>Generate</Submit>
+                <br/>
                 URL Parameters
                 <FormGroup>
                   <Label>Hostname</Label>
